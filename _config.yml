@@ -1,14 +1,26 @@
-layout_spectrum: 0.02985075
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.2361887
 color:
-  saturation: 0.07086998
-  lightness: 0.4773306
+  saturation: 0.1091418
   brandStrength: 0.6602196
-  rhythmicContrast: 0.05305736
+  lightness: 0.4071828
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-typography_spectrum: 0.2361887
+  rhythmicContrast: 0.1669776
+layout_spectrum: 0.02985075
 name: Robert_Mañé
